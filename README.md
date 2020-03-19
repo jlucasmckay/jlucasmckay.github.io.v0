@@ -16,7 +16,9 @@ Wallace H. Coulter Department of Biomedical Engineering, Emory University and Ge
 (404) 727-5619 (fax)  
 
 
-Room 4007 Woodruff Memorial Research Building 101 Woodruff Circle Atlanta, GA 30322
+Room 4007  
+101 Woodruff Circle  
+Atlanta, GA 30322  
 
 
 ---
