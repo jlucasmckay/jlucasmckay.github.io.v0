@@ -36,7 +36,7 @@ Atlanta, GA 30322
 ## Courses
 
 
-- [Timeseries 1](courses/2021/timeseries1/index.md)
+- [Timeseries 1](courses/2021/timeseries1)
 
 
 ---
