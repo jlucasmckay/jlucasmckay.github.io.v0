@@ -1,21 +1,23 @@
 ---
-title: Timeseries 1
+title: Syllabus
 ---
 
-# Syllabus
-## Timeseries 1
+# Timeseries 1
+## Syllabus
+
+
 
 This course will focus on topics drawn from digital signal processing and other domains. 
 
-Different representations of Time in informatics
-1. Timescales
+### Introduction: different representations of Time in informatics data
+1. Timescales - 1 kHz to annual
     1. ECG
     1. Annual
-1. Regular vs. irregular sampling
+1. Explicit vs. implicit representations of time
 1. Time to event: censored data and survival analysis
 1. Course focus: signals in which time is represented implicitly and sampled regularly, "high frequency" in statistics nomenclature
 
-Equivalence of time domain and frequency domain representations of signals
+### Equivalence of time domain and frequency domain representations of signals
 1. Cauchy-Schwartz inequality
 1. Estimating energy
 1. Transformation matrices
@@ -25,14 +27,14 @@ Equivalence of time domain and frequency domain representations of signals
 	1. De-trend
 	1. Wavelet filtering
 
-Sampling, aliasing, and signal quality
+### Sampling, aliasing, and signal quality
 1. Sampling artifacts
 1. Antialias filtering
 1. Sources and types of noise
     1. Additive vs. signal-dependent noise in biological timeseries
 1. Rolling averages and nonlinear operations
 
-Autoregressive models
+### Autoregressive models
 
 Equivalence of Frequency domain representation of a grandma cell
 
