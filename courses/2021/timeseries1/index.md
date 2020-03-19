@@ -3,15 +3,34 @@ title: Syllabus
 ---
 
 # Timeseries 1
+
+## Summary
+This course presents a comprehensive treatment of timeseries data suitable for first- and second-year graduate students in Bioinformatics and Data Sciences. 
+
+## Prerequisites
+Previous coursework in linear algebra and statistics or probability theory. Fluency with programming in R, Python, or Matlab.
+
+## Text
+There is no dedicated text. Some material is adapted from "Signal Processing and Linear Systems" by Lathi.
+
+## Communication & Course Materials 
+Lectures: MW 1-2:15 PM
+Prerequisites: 
+
 ## Syllabus
 
+## Course Objectives:
 
+This course will introduce students to fundamental theory and algorithms in machine learning through lectures, homework, and a second-quarter project.
+Following this course students should be able to: 
+1. Prepare datasets for machine-learning experiments
+2. Formulate rigorous validation protocols, and evaluate the rigor of validation protocols
+3. Understand the bias and variance tradeoff and various strategies to mitigate overfitting
+4. Understand fundamental machine-learning algorithms presented in the text 
 
-This course will focus on topics drawn from digital signal processing and other domains. 
-
-## Instructor
-
-## Skills
+Grading
+1. Project (50%) The semester-long project is designed to provide you with practical experience in algorithm implementation and validation experiments. Projects will be presented at the end of the semester and documented in a short report. Students will work in small teams, and each student’s final project grade will be weighted using reviews from their teammates. 
+1. Homework (50%) will help students develop analytical and programming skills. Solutions will be explained at the beginning of class on the due date and late submissions will not be accepted. A homework assignment given on the first day will test prerequisite material and graded pass/fail. A passing grade on this homework is required to pass this course. 
 
 ## Outline
 
@@ -21,7 +40,9 @@ This course will focus on topics drawn from digital signal processing and other 
     1. Annual
 1. Explicit vs. implicit representations of time
 1. Time to event: censored data and survival analysis
+1. Forecasting: data only from the past
 1. Course focus: signals in which time is represented implicitly and sampled regularly, "high frequency" in statistics nomenclature
+
 
 ### Equivalence of time domain and frequency domain representations of signals
 1. Cauchy-Schwartz inequality
@@ -33,7 +54,7 @@ This course will focus on topics drawn from digital signal processing and other 
 	1. De-trend
 	1. Wavelet filtering
 
-### Sampling, aliasing, and signal quality
+### Sampling, aliasing, and signal quality of high-frequency data
 1. Sampling artifacts
 1. Antialias filtering
 1. Sources and types of noise
