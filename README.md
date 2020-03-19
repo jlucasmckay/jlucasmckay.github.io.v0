@@ -11,7 +11,7 @@ Department of Biomedical Informatics, Department of Neurology, Emory University 
 Wallace H. Coulter Department of Biomedical Engineering, Emory University and Georgia Tech
 
 
-lucas@dbmi.emory.edu  
+[lucas@dbmi.emory.edu](mailto:lucas@dbmi.emory.edu)  
 (404) 550-5157 (mobile)  
 (404) 727-5619 (fax)  
 
