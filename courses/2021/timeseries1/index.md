@@ -9,6 +9,12 @@ title: Syllabus
 
 This course will focus on topics drawn from digital signal processing and other domains. 
 
+## Instructor
+
+## Skills
+
+## Outline
+
 ### Introduction: different representations of Time in informatics data
 1. Timescales - 1 kHz to annual
     1. ECG
