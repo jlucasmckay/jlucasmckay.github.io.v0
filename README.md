@@ -20,9 +20,9 @@ Room 4007 Woodruff Memorial Research Building 101 Woodruff Circle Atlanta, GA 30
 
 ## Studies currently recruiting
 
-
-- Under construction
-
+- Balance and Falls in Parkinson's Disease
+    - PDFALLS Flyer
+    - PDFALLS Contact
 
 ## Courses
 
