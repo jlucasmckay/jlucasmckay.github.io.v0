@@ -5,32 +5,30 @@ title: Syllabus
 # Timeseries 1
 
 ## Summary
-This course presents a comprehensive treatment of timeseries data suitable for first- and second-year graduate students in Bioinformatics and Data Sciences. 
+This course presents a comprehensive treatment of timeseries data suitable for first- and second-year graduate students in Bioinformatics and Data Sciences.
+The course is arranged as 12 weeks of lectures (2h/week) with weekly homework and closes with a machine learning competition focused on identification and annotation of freezing of gait episodes in kinematic data of patients with Parkinson's disease.
 
 ## Prerequisites
-Previous coursework in linear algebra and statistics or probability theory. Fluency with programming in R, Python, or Matlab.
+Previous coursework in linear algebra and statistics / probability theory.
+Fluency with programming in Python, Matlab, or similar.
 
 ## Text
-There is no dedicated text. Some material is adapted from "Signal Processing and Linear Systems" by Lathi.
+There is no dedicated text. Some material is adapted from "Signal Processing and Linear Systems" by [Lathi](handouts/Lathi.pdf).
 
-## Communication & Course Materials 
-Lectures: MW 1-2:15 PM
-Prerequisites: 
-
-## Syllabus
-
-## Course Objectives:
-
-This course will introduce students to fundamental theory and algorithms in machine learning through lectures, homework, and a second-quarter project.
+## Course Objectives
+This course will introduce students to fundamental theory of timeseries analysis through lectures, homework, and a second-quarter project.
 Following this course students should be able to: 
-1. Prepare datasets for machine-learning experiments
-2. Formulate rigorous validation protocols, and evaluate the rigor of validation protocols
-3. Understand the bias and variance tradeoff and various strategies to mitigate overfitting
-4. Understand fundamental machine-learning algorithms presented in the text 
+1. Understand fundamental duality between time- and frequency- domain representation of biosignals
+1. Understand fundamentals of sampling and the potential impact of aliasing on biological data 
+1. Prepare timeseries datasets for analyses that appropriately consider repeated measurements of individual patients at different nominal times
+1. Apply common linear and nonlinear signal conditioning approaches to noisy data
+1. Calculate common estimates of time-varying signal energy
+1. Design and train a simple autoregressive classifier that can predict changes in time-varying signal energy
+1. Characterize the prediction horizon of the classifier
 
-Grading
-1. Project (50%) The semester-long project is designed to provide you with practical experience in algorithm implementation and validation experiments. Projects will be presented at the end of the semester and documented in a short report. Students will work in small teams, and each student’s final project grade will be weighted using reviews from their teammates. 
-1. Homework (50%) will help students develop analytical and programming skills. Solutions will be explained at the beginning of class on the due date and late submissions will not be accepted. A homework assignment given on the first day will test prerequisite material and graded pass/fail. A passing grade on this homework is required to pass this course. 
+## Grading
+1. Homework (50%) will help students develop analytical and programming skills.
+1. An end-of-semester project (50%) will provide students with practical experience in identifying health-related events in patient data. Students will use the PDFOG kinematic dataset to predict the onset of freezing of gait episodes identified from video recordings by an expert rater. This will be possible to do only techniques presented in the course, but students may identify and implement approaches from the literature.
 
 ## Outline
 
@@ -42,7 +40,6 @@ Grading
 1. Time to event: censored data and survival analysis
 1. Forecasting: data only from the past
 1. Course focus: signals in which time is represented implicitly and sampled regularly, "high frequency" in statistics nomenclature
-
 
 ### Equivalence of time domain and frequency domain representations of signals
 1. Cauchy-Schwartz inequality
