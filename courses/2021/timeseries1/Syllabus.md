@@ -1,9 +1,5 @@
----
-title: "Timeseries 1"
-author: "J. Lucas McKay, Ph.D., M.S.C.R."
----
-
 # Syllabus
+## Timeseries 1
 
 This course will focus on topics drawn from digital signal processing and other domains. 
 
