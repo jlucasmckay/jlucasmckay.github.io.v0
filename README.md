@@ -1,5 +1,7 @@
 # J. Lucas McKay Ph.D. M.S.C.R.
 
+---
+
 ## Assistant Professor
 
 
@@ -7,6 +9,9 @@ Department of Biomedical Informatics, Department of Neurology, Emory University 
 
 
 Wallace H. Coulter Department of Biomedical Engineering, Emory University and Georgia Tech
+
+
+lucas@dbmi.emory.edu
 
 
 (404) 550-5157 (mobile)
@@ -18,11 +23,17 @@ Wallace H. Coulter Department of Biomedical Engineering, Emory University and Ge
 Room 4007 Woodruff Memorial Research Building 101 Woodruff Circle Atlanta, GA 30322
 
 
+---
+
+
 ## Studies currently recruiting
 
-- Balance and Falls in Parkinson's Disease
+- PDFALLS: Balance and Falls in Parkinson's Disease
     - PDFALLS Flyer
-    - PDFALLS Contact
+    - PDFALLS [Contact](mailto:lucas@dbmi.emory.edu)
+
+---
+
 
 ## Courses
 
@@ -30,10 +41,16 @@ Room 4007 Woodruff Memorial Research Building 101 Woodruff Circle Atlanta, GA 30
 - Timeseries 1
 
 
+---
+
+
 ## Research products
 
 
 - Under construction
+
+
+---
 
 
 ## Other resources
@@ -44,11 +61,17 @@ Room 4007 Woodruff Memorial Research Building 101 Woodruff Circle Atlanta, GA 30
 - [Twitter](https://twitter.com/jlucasmckay)
 
 
+---
+
+
 ## Affiliates
 
 
 - [The Neuromechanics Laboratory at Emory University](http://neuromechanicslab.emory.edu)
 - [The Emory University Brain Health Center](https://www.emoryhealthcare.org/centers-programs/brain-health-center/index.html)
+
+
+---
 
 
 ## Disclosures
