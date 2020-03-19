@@ -1,4 +1,4 @@
-# J. Lucas McKay Ph.D. M.S.C.R.
+# J. Lucas McKay, Ph.D. M.S.C.R.
 
 ---
 
@@ -25,7 +25,7 @@ Room 4007 Woodruff Memorial Research Building 101 Woodruff Circle Atlanta, GA 30
 ## Studies currently recruiting
 
 - PDFALLS: Balance and Falls in Parkinson's Disease
-    - PDFALLS Flyer
+    - PDFALLS [Flyer](studyDocuments/PDFALLS/flyer.pdf)
     - PDFALLS [Contact](mailto:lucas@dbmi.emory.edu)
 
 ---
@@ -34,7 +34,7 @@ Room 4007 Woodruff Memorial Research Building 101 Woodruff Circle Atlanta, GA 30
 ## Courses
 
 
-- Timeseries 1
+- [Timeseries 1](courses/2021/timeseries1/index.md)
 
 
 ---
