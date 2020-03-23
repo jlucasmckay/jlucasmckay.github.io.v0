@@ -37,37 +37,45 @@ Following this course students should be able to:
         1. Timescales - 1 kHz to 1 sample/year
         1. Explicit vs. implicit representations of time
         1. Time to event: censored data and survival analysis
-        1. Forecasting: data only from the past
+        1. Causal and non-causal data
         1. Course focus: signals in which time is represented implicitly and sampled regularly, "high frequency" in statistics nomenclature
-    1. Simple operations on regularly-sampled timeseries data (examples from [Shumway](references/Shumway.pdf))
-        1. Using regression to discover a signal embedded in noise
+    1. Simple operations for discovering a signal embedded in additive noise
+        1. Regression onto a hypothesized basis
         1. Moving average smoothing
-1. Equivalence of time domain and frequency domain representations of signals 
+        1. Frequency-domain filtering
+        1. Autoregressive estimation
+1. Spectral analysis and filtering
+    1. Equivalence of frequency and time domain representations of signals 
     1. Signal representation by Fourier series
     1. Aperiodic signal representation by the Fourier Transform
     1. Sampling and aliasing
         1. The sampling theorem
         1. The Discrete Fourier Transform (DFT)
-    1. Projection matrix representations
-        1. DFT basis matrix
-        1. DWT basis matrix    
-    1. Frequency domain description of ideal and real filters
-    1. Impacts of windowing
+    1. Decimation and upsampling
+    1. Linear filters
+    1. Impacts of windowing on frequency content
+    1. Measures of signal size, energy, and power in the spectral domain
+    1. Optional topics: invertible projection matrix representations
+        1. DFT projection
+        1. DWT projection
+        1. SVD/Karhunen–Loève/PCA projection
+1. Time series regression and autoregressive / ARIMA models
+    1. Autoregressive moving average models
+    1. Difference equations
+    1. Autocorrelation and partial autocorrelation
+    1. Forecasting and backcasting
+    1. Building ARIMA models
+    1. Covariance structures in longitudinal studies
+    
 1. Measures of signal size, energy, and power
     1. Kurtosis etc.
+    1. Additive vs. signal-dependent noise in biological timeseries
 1. Projects
     1. Detecting tremulous freezing episodes
     1. Detecting arrhythmias
 
 ### Timeseries regression and ARIMA
 
-
-### Sampling, aliasing, and signal quality of high-frequency data
-1. Sampling artifacts
-1. Antialias filtering
-1. Sources and types of noise
-    1. Additive vs. signal-dependent noise in biological timeseries
-1. Rolling averages and nonlinear operations
 
 ### Autoregressive / ARIMA approaches
 1. Comparison of ARIMA and random forest time series models for prediction of avian influenza H5N1 outbreaks [Kane](references/Kane.pdf)
