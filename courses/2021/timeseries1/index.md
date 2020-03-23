@@ -33,7 +33,7 @@ Following this course students should be able to:
 ## Outline
     
 1. Introduction to timeseries data
-    1. Representations of Time in informatics data
+    1. Representations of time in informatics data
         1. Timescales - 1 kHz to 1 sample/year
         1. Explicit vs. implicit representations of time
         1. Time to event: censored data and survival analysis
@@ -42,7 +42,7 @@ Following this course students should be able to:
     1. Simple operations on regularly-sampled timeseries data (examples from [Shumway](references/Shumway.pdf))
         1. Using regression to discover a signal embedded in noise
         1. Moving average smoothing
-1. Equivalence of time domain and frequency domain representations of signals
+1. Equivalence of time domain and frequency domain representations of signals 
     1. Signal representation by Fourier series
     1. Aperiodic signal representation by the Fourier Transform
     1. Sampling and aliasing
@@ -52,11 +52,14 @@ Following this course students should be able to:
         1. DFT basis matrix
         1. DWT basis matrix    
     1. Frequency domain description of ideal and real filters
-    1. Signal size, energy, and power
-    1. What does considering only a moving window of a signal do to our understanding of its frequency content?
-1. 
+    1. Impacts of windowing
+1. Measures of signal size, energy, and power
+    1. Kurtosis etc.
+1. Projects
+    1. Detecting tremulous freezing episodes
+    1. Detecting arrhythmias
 
-### Timeseries regression
+### Timeseries regression and ARIMA
 
 
 ### Sampling, aliasing, and signal quality of high-frequency data
