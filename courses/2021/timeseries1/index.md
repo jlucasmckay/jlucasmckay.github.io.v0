@@ -76,4 +76,3 @@ Following this course students should be able to:
     1. Two lectures will cover clinical and practical aspects of Parkinson's disease.
     1. In year 1 of the class, the final project will be scored based on reconstruction of expert labels (start and stop of FOG episodes) provided by a clinical collaborator. One approach is that provided by [Moore](reference/Moore.pdf). In later years, the final project will build upon the work of previous cohorts and will identify kinematic features associated with medication state during testing (OFF and ON medication for most participants) and aspects of disease phenotype.
 
-
