@@ -63,7 +63,7 @@ Following this course students should be able to:
         1. DFT projection
         1. DWT projection
         1. SVD/Karhunen–Loève/PCA projection
-* __Mid-semester project 1:__ calculation of low-frequency/high-frequency (LF/HF) ratio of heart rate variability ([McSharry](reference/McSharry.pdf)) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
+1. __Mid-semester project 1:__ calculation of low-frequency/high-frequency (LF/HF) ratio of heart rate variability ([McSharry](reference/McSharry.pdf)) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
         1. Accessing publicly-available data repositories
         1. Data wrangling for preparation of datasets
 1. __Time series regression and autoregressive / ARIMA models__
@@ -73,8 +73,8 @@ Following this course students should be able to:
     1. Forecasting and backcasting
     1. Building ARIMA models
     1. Estimating covariance structures in longitudinal studies (e.g., [Lu](reference/Lu.pdf))
-* __Mid-semester project 2:__ ARIMA approach for prediction of avian influenza H5N1 outbreaks [Kane](reference/Kane.pdf) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
-* __Final project:__ detection of tremulous freezing episodes in unpublished kinematic data of PD patients annotated by clinical collaborators.
+1. __Mid-semester project 2:__ ARIMA approach for prediction of avian influenza H5N1 outbreaks [Kane](reference/Kane.pdf) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
+1. __Final project:__ detection of tremulous freezing episodes in unpublished kinematic data of PD patients annotated by clinical collaborators.
     1. Two lectures will cover clinical and practical aspects of Parkinson's disease.
     1. In year 1 of the class, the final project will be scored based on reconstruction of expert labels (start and stop of FOG episodes) provided by a clinical collaborator. One approach is that provided by [Moore](reference/Moore.pdf). In later years, the final project will build upon the work of previous cohorts and will identify kinematic features associated with medication state during testing (OFF and ON medication for most participants) and aspects of disease phenotype.
 
