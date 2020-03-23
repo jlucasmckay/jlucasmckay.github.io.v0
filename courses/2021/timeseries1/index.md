@@ -47,7 +47,7 @@ Following this course students should be able to:
         1. Frequency-domain filtering
         1. Autoregressive estimation
 1. Spectral analysis and filtering
-    1. Equivalence of frequency and time domain representations of signals 
+    1. Equivalence of frequency and time domain representations of signals
     1. Signal representation by Fourier series
     1. Aperiodic signal representation by the Fourier Transform
     1. Sampling and aliasing
