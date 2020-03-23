@@ -6,7 +6,9 @@ title: Syllabus
 
 ## Summary
 This course presents a comprehensive treatment of timeseries data suitable for first- and second-year graduate students in Bioinformatics and Data Sciences.
-The course is arranged as 12 weeks of lectures (2h/week) with weekly homework and closes with a machine learning competition focused on identification and annotation of freezing of gait episodes in kinematic data of patients with Parkinson's disease.
+The course is arranged as 12 weeks of lectures (2h/week) with 10 weekly homework problem sets.
+Two mid-semester projects will help students develop practical programming skills necessary for accessing and analyzing publicly-available data.
+The course closes with a machine learning competition focused on identification and annotation of freezing of gait episodes in kinematic data of patients with Parkinson's disease.
 
 ## Prerequisites
 Previous coursework in linear algebra and statistics / probability theory.
@@ -18,12 +20,12 @@ There is no dedicated text. Some material is adapted from texts by [Lathi](refer
 ## Course Objectives
 This course will introduce students to theoretical and applied aspects of timeseries analysis through lectures, homework, and a second-quarter project.
 Following this course students should be able to: 
-1. Understand fundamental duality between time- and frequency- domain representation of signals
-1. Understand fundamentals of sampling and aliasing
-1. Access publicly-available timeseries datasets and prepare them for analyses that appropriately consider repeated measurements of individual patients at different nominal times
-1. Apply common linear and nonlinear signal conditioning approaches to noisy data
-1. Calculate common estimates of time-varying spectral energy and other summary statistics 
-1. Design and train a simple classifier that can predict changes in time-varying signal energy
+1. Understand fundamental duality between time- and frequency- domain representation of signals.
+1. Understand fundamentals of sampling and aliasing.
+1. Access publicly-available timeseries datasets and prepare them for analyses that appropriately consider repeated measurements of individual patients at different nominal times.
+1. Apply common linear and nonlinear signal conditioning approaches to noisy data.
+1. Calculate common estimates of time-varying spectral energy and other summary statistics.
+1. Design and train a simple classifier that can predict changes in time-varying signal energy.
 
 ## Grading
 1. Homework (50%) will consist of math problems and will help students develop analytical and programming skills.
@@ -70,6 +72,8 @@ Following this course students should be able to:
     1. Building ARIMA models
     1. Covariance structures in longitudinal studies
     1. Mid-semester project 2: ARIMA approach for prediction of avian influenza H5N1 outbreaks [Kane](references/Kane.pdf) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
-1. Final project: detection of tremulous freezing episodes in unpublished kinematic data of PD patients annotated by clinical collaborators. One approach is that provided by [Moore](references/Moore.pdf). In year 1 of the class, the final project will be scored based on reconstruction of expert labels provided by a clinical collaborator.
+1. Final project: detection of tremulous freezing episodes in unpublished kinematic data of PD patients annotated by clinical collaborators.
+    1. Two lectures will cover clinical and practical aspects of Parkinson's disease.
+    1. In year 1 of the class, the final project will be scored based on reconstruction of expert labels (start and stop of FOG episodes) provided by a clinical collaborator. One approach is that provided by [Moore](references/Moore.pdf). In later years, the final project will build upon the work of previous cohorts and will identify kinematic features associated with medication state during testing (OFF and ON medication for most participants) and aspects of disease phenotype.
 
 
