@@ -15,7 +15,7 @@ Previous coursework in linear algebra and statistics / probability theory.
 Fluency with programming in Python, Matlab, or similar.
 
 ## Text
-There is no dedicated text. Some material is adapted from texts by [Lathi](references/Lathi.pdf) and [Shumway](references/Shumway.pdf) 
+There is no dedicated text. Some material is adapted from texts by [Lathi](references/Lathi.pdf) and [Shumway](references/Shumway.pdf).
 
 ## Course Objectives
 This course will introduce students to theoretical and applied aspects of timeseries analysis through lectures, homework, and a second-quarter project.
