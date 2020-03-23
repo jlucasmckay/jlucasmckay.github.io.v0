@@ -53,6 +53,8 @@ Following this course students should be able to:
         1. DWT basis matrix    
     1. Frequency domain description of ideal and real filters
     1. Signal size, energy, and power
+    1. What does considering only a moving window of a signal do to our understanding of its frequency content?
+1. 
 
 ### Timeseries regression
 
