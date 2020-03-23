@@ -48,29 +48,11 @@ Following this course students should be able to:
     1. Sampling and aliasing
         1. The sampling theorem
         1. The Discrete Fourier Transform (DFT)
-    1. Projection matrix representations of DFT, DWT
+    1. Projection matrix representations
+        1. DFT basis matrix
+        1. DWT basis matrix    
     1. Frequency domain description of ideal and real filters
-
-
-
-### Equivalence of time domain and frequency domain representations of signals
-1. Spectral description of ideal filters
-1. Signal size
-
-### Sampling and aliasing
-
-### 
-
-### 
-
-1. Cauchy-Schwartz inequality
-1. Estimating energy
-1. Transformation matrices
-    1. DFT basis matrix
-    1. DWT basis matrix
-1. Operations in other domains
-	1. De-trend
-	1. Wavelet filtering
+    1. Signal size, energy, and power
 
 ### Timeseries regression
 
