@@ -58,6 +58,15 @@ Following this course students should be able to:
     1. Additive vs. signal-dependent noise in biological timeseries
 1. Rolling averages and nonlinear operations
 
+### Example timeseries signal statistics
+1. Time domain characteristics
+    1. Mean and standard deviation of heart rate
+    1. Mean tremor frequency
+    1. TK 
+1. Frequency-domain characteristics
+    1. Low-frequency/high-frequency (LF/HF) ratio of heart rate variability (ratio of power between 0.015–0.15 Hz and 0.15–0.4 Hz in the RR tachogram)
+    1. "Freeze band power" in kinematic marker data
+
 ### Autoregressive models
 
 Equivalence of Frequency domain representation of a grandma cell
