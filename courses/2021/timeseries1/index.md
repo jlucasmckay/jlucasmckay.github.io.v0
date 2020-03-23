@@ -36,7 +36,7 @@ Following this course students should be able to:
 
 ![](images/noisyCosine.png)
 
-1. Introduction to timeseries data
+1. __Introduction to timeseries data__
     1. Representations of time in informatics data
         1. Timescales - 1 kHz to 1 sample/year
         1. Explicit vs. implicit representations of time
@@ -48,7 +48,7 @@ Following this course students should be able to:
         1. Moving average smoothing
         1. Frequency-domain filtering
         1. Autoregressive estimation
-1. Spectral analysis and filtering
+1. __Spectral analysis and filtering__
     1. Equivalence of frequency and time domain representations of signals
     1. Signal representation by Fourier series
     1. Aperiodic signal representation by the Fourier Transform
@@ -59,22 +59,23 @@ Following this course students should be able to:
     1. Linear filters
     1. Impacts of windowing on frequency content
     1. Measures of signal size, energy, and power in the spectral domain
-    1. Mid-semester project 1: calculation of low-frequency/high-frequency (LF/HF) ratio of heart rate variability ([McSharry](reference/McSharry.pdf)) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
-        1. Accessing publicly-available data repositories
-        1. Data wrangling for preparation of datasets
     1. Optional topics: invertible projection matrix representations
         1. DFT projection
         1. DWT projection
         1. SVD/Karhunen–Loève/PCA projection
-1. Time series regression and autoregressive / ARIMA models
+    * __Mid-semester project 1:__ calculation of low-frequency/high-frequency (LF/HF) ratio of heart rate variability ([McSharry](reference/McSharry.pdf)) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
+        1. Accessing publicly-available data repositories
+        1. Data wrangling for preparation of datasets
+1. __Time series regression and autoregressive / ARIMA models__
     1. Autoregressive moving average models
     1. Difference equations
     1. Autocorrelation and partial autocorrelation
     1. Forecasting and backcasting
     1. Building ARIMA models
     1. Estimating covariance structures in longitudinal studies (e.g., [Lu](reference/Lu.pdf))
-    1. Mid-semester project 2: ARIMA approach for prediction of avian influenza H5N1 outbreaks [Kane](reference/Kane.pdf) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
-1. Final project: detection of tremulous freezing episodes in unpublished kinematic data of PD patients annotated by clinical collaborators.
+    * __Mid-semester project 2:__ ARIMA approach for prediction of avian influenza H5N1 outbreaks [Kane](reference/Kane.pdf) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
+
+* __Final project:__ detection of tremulous freezing episodes in unpublished kinematic data of PD patients annotated by clinical collaborators.
     1. Two lectures will cover clinical and practical aspects of Parkinson's disease.
     1. In year 1 of the class, the final project will be scored based on reconstruction of expert labels (start and stop of FOG episodes) provided by a clinical collaborator. One approach is that provided by [Moore](reference/Moore.pdf). In later years, the final project will build upon the work of previous cohorts and will identify kinematic features associated with medication state during testing (OFF and ON medication for most participants) and aspects of disease phenotype.
 
