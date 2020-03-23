@@ -28,7 +28,7 @@ Following this course students should be able to:
 1. Design and train a simple classifier that can predict changes in time-varying signal energy.
 
 ## Grading
-1. Homework (50%) will consist of math problems and will help students develop analytical and programming skills.
+1. Homework (25%) will consist of math problems and will help students develop analytical and programming skills.
 1. Two mid-semester projects (25%) will help students develop practical programming skills necessary for accessing and analyzing publicly-available data. Both mid-semester projects will be available from the second week of class and can be turned in any time before the resources for the end-of-semester project are released.
 1. An end-of-semester project (50%) will provide students with practical experience in identifying health-related events in prospectively-collected research patient data. Students will use the PDFOG kinematic dataset to predict the onset of freezing of gait episodes identified from video recordings by an expert rater. This will be possible to do only techniques presented in the course, but students may identify and implement approaches from the literature.
 
