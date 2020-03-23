@@ -41,7 +41,7 @@ Following this course students should be able to:
         1. Time to event: censored data and survival analysis
         1. Causal and non-causal data
         1. Course focus: signals in which time is represented implicitly and sampled regularly, "high frequency" in statistics nomenclature
-    1. Simple operations for discovering a signal embedded in additive noise
+    1. Simple operations for discovering a signal embedded in additive noise ![](images/noisyCosine.png)
         1. Regression onto a hypothesized basis
         1. Moving average smoothing
         1. Frequency-domain filtering
