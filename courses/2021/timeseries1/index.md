@@ -20,15 +20,15 @@ This course will introduce students to theoretical and applied aspects of timese
 Following this course students should be able to: 
 1. Understand fundamental duality between time- and frequency- domain representation of signals
 1. Understand fundamentals of sampling and aliasing
-1. Prepare timeseries datasets for analyses that appropriately consider repeated measurements of individual patients at different nominal times
+1. Access publicly-available timeseries datasets and prepare them for analyses that appropriately consider repeated measurements of individual patients at different nominal times
 1. Apply common linear and nonlinear signal conditioning approaches to noisy data
-1. Calculate common estimates of time-varying signal energy
-1. Design and train a simple autoregressive classifier that can predict changes in time-varying signal energy
-1. Characterize the prediction horizon of the classifier
+1. Calculate common estimates of time-varying spectral energy and other summary statistics 
+1. Design and train a simple classifier that can predict changes in time-varying signal energy
 
 ## Grading
-1. Homework (50%) will help students develop analytical and programming skills.
-1. An end-of-semester project (50%) will provide students with practical experience in identifying health-related events in patient data. Students will use the PDFOG kinematic dataset to predict the onset of freezing of gait episodes identified from video recordings by an expert rater. This will be possible to do only techniques presented in the course, but students may identify and implement approaches from the literature.
+1. Homework (50%) will consist of math problems and will help students develop analytical and programming skills.
+1. Two mid-semester projects (25%) will help students develop practical programming skills necessary for accessing and analyzing publicly-available data. Both mid-semester projects will be available from the second week of class and can be turned in any time before the resources for the end-of-semester project are released.
+1. An end-of-semester project (50%) will provide students with practical experience in identifying health-related events in prospectively-collected research patient data. Students will use the PDFOG kinematic dataset to predict the onset of freezing of gait episodes identified from video recordings by an expert rater. This will be possible to do only techniques presented in the course, but students may identify and implement approaches from the literature.
 
 ## Outline
     
@@ -55,6 +55,9 @@ Following this course students should be able to:
     1. Linear filters
     1. Impacts of windowing on frequency content
     1. Measures of signal size, energy, and power in the spectral domain
+    1. Mid-semester project 1: calculation of low-frequency/high-frequency (LF/HF) ratio of heart rate variability ([McSharry](references/McSharry.pdf)) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
+        1. Accessing publicly-available data repositories
+        1. Data wrangling for preparation of datasets
     1. Optional topics: invertible projection matrix representations
         1. DFT projection
         1. DWT projection
@@ -66,79 +69,7 @@ Following this course students should be able to:
     1. Forecasting and backcasting
     1. Building ARIMA models
     1. Covariance structures in longitudinal studies
-    
-1. Measures of signal size, energy, and power
-    1. Kurtosis etc.
-    1. Additive vs. signal-dependent noise in biological timeseries
-1. Projects
-    1. Detecting tremulous freezing episodes
-    1. Detecting arrhythmias
+    1. Mid-semester project 2: ARIMA approach for prediction of avian influenza H5N1 outbreaks [Kane](references/Kane.pdf) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
+1. Final project: detection of tremulous freezing episodes in unpublished kinematic data of PD patients annotated by clinical collaborators. One approach is that provided by [Moore](references/Moore.pdf). In year 1 of the class, the final project will be scored based on reconstruction of expert labels provided by a clinical collaborator.
 
-### Timeseries regression and ARIMA
-
-
-### Autoregressive / ARIMA approaches
-1. Comparison of ARIMA and random forest time series models for prediction of avian influenza H5N1 outbreaks [Kane](references/Kane.pdf)
-1. 
-
-### Example timeseries signal statistics
-1. Time domain characteristics
-    1. Mean and standard deviation of heart rate
-    1. Mean tremor frequency
-    1. TK 
-1. Frequency-domain characteristics
-    1. Low-frequency/high-frequency (LF/HF) ratio of heart rate variability ([McSharry](references/McSharry.pdf))
-    1. "Freeze band power" in kinematic/kinetic data ([Moore](references/Moore.pdf))
-
-### Autoregressive models
-
-Equivalence of Frequency domain representation of a grandma cell
-
-Matched filters: 
-
-Digital signal processing
-1. Deconvolution with matched filters
-1. Filters matched to input timeseries
-
-Homeworks
-1. Matched filters: converting "phono" signals to "line-level" signals (RIAA playback equalization)
-
-Sampling and aliasing
-1. Antialias filtering
-1. Explicit, rather than implicit, representations of Time
-
-Digital signal processing
-1. Deconvolution with matched filters
-1. Filters matched to input timeseries
-
-
-
-
-Explicit Time
-Data management
-1. Wide and tall Data
-1. Implicit and explicit timeseries
-
-
-Additional topics
-1. Additive vs. signal-dependent noise
-1. Rolling averages and prediction
-1. Differen
-
-Projects
-1. Detecting tremulous freezing episodes
-1. Detecting arrhythmias
-
-1. Data shapes
-1. The `fog` dataset
-1. The `emg` dataset
-1. Frequency domain description of filters: high pass, low pass, band pass
-    1. Converting "phono" signals to "line-level" signals (RIAA playback equalization)
-1. Time domain description of filters: "matched filters"
-    1. A single deep learning kernel
-1. Nonlinear operators
-1. Comparing timeseries
-    1. Control chart
-    1. Across groups
-1. Threshold-based approaches to identify abnormalities
 
