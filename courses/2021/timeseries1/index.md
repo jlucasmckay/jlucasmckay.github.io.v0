@@ -13,7 +13,7 @@ Previous coursework in linear algebra and statistics / probability theory.
 Fluency with programming in Python, Matlab, or similar.
 
 ## Text
-There is no dedicated text. Some material is adapted from "Signal Processing and Linear Systems" by [Lathi](handouts/Lathi.pdf).
+There is no dedicated text. Some material is adapted from "Signal Processing and Linear Systems" by [Lathi](references/Lathi.pdf).
 
 ## Course Objectives
 This course will introduce students to fundamental theory of timeseries analysis through lectures, homework, and a second-quarter project.
@@ -64,8 +64,8 @@ Following this course students should be able to:
     1. Mean tremor frequency
     1. TK 
 1. Frequency-domain characteristics
-    1. Low-frequency/high-frequency (LF/HF) ratio of heart rate variability (ratio of power between 0.015–0.15 Hz and 0.15–0.4 Hz in the RR tachogram)
-    1. "Freeze band power" in kinematic marker data
+    1. Low-frequency/high-frequency (LF/HF) ratio of heart rate variability (as described by McSharry)
+    1. "Freeze band power" in kinematic marker data (as described )
 
 ### Autoregressive models
 
