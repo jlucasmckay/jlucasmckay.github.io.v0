@@ -6,16 +6,16 @@ title: Syllabus
 
 ## Summary
 This course presents a comprehensive treatment of timeseries data suitable for first- and second-year graduate students in Bioinformatics and Data Sciences.
-The course is arranged as 12 weeks of lectures (2h/week) with 10 weekly homework problem sets.
+The course is arranged as 12 weeks of lectures (2h/week) with 8 weekly homework problem sets.
 Two mid-semester projects will help students develop practical programming skills necessary for accessing and analyzing publicly-available data.
 The course closes with a machine learning competition focused on identification and annotation of freezing of gait episodes in kinematic data of patients with Parkinson's disease.
 
 ## Prerequisites
 Previous coursework in linear algebra and statistics / probability theory.
-Fluency with programming in Python, Matlab, or similar.
+Fluency with programming in R, Matlab, Python, or similar.
 
 ## Text
-There is no dedicated text. Some material is adapted from texts by [Lathi](references/Lathi.pdf) and [Shumway](references/Shumway.pdf).
+There is no dedicated text. Some material is adapted from texts by [Lathi](reference/Lathi.pdf) and [Shumway](reference/Shumway.pdf).
 
 ## Course Objectives
 This course will introduce students to theoretical and applied aspects of timeseries analysis through lectures, homework, and a second-quarter project.
@@ -57,7 +57,7 @@ Following this course students should be able to:
     1. Linear filters
     1. Impacts of windowing on frequency content
     1. Measures of signal size, energy, and power in the spectral domain
-    1. Mid-semester project 1: calculation of low-frequency/high-frequency (LF/HF) ratio of heart rate variability ([McSharry](references/McSharry.pdf)) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
+    1. Mid-semester project 1: calculation of low-frequency/high-frequency (LF/HF) ratio of heart rate variability ([McSharry](reference/McSharry.pdf)) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
         1. Accessing publicly-available data repositories
         1. Data wrangling for preparation of datasets
     1. Optional topics: invertible projection matrix representations
@@ -70,10 +70,10 @@ Following this course students should be able to:
     1. Autocorrelation and partial autocorrelation
     1. Forecasting and backcasting
     1. Building ARIMA models
-    1. Covariance structures in longitudinal studies
-    1. Mid-semester project 2: ARIMA approach for prediction of avian influenza H5N1 outbreaks [Kane](references/Kane.pdf) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
+    1. Estimating covariance structures in longitudinal studies (e.g., [Lu](reference/Lu.pdf))
+    1. Mid-semester project 2: ARIMA approach for prediction of avian influenza H5N1 outbreaks [Kane](reference/Kane.pdf) in a publicly-available dataset. Mid-semester project 1 will be scored based on performance vs. Dr. McKay's implementation.
 1. Final project: detection of tremulous freezing episodes in unpublished kinematic data of PD patients annotated by clinical collaborators.
     1. Two lectures will cover clinical and practical aspects of Parkinson's disease.
-    1. In year 1 of the class, the final project will be scored based on reconstruction of expert labels (start and stop of FOG episodes) provided by a clinical collaborator. One approach is that provided by [Moore](references/Moore.pdf). In later years, the final project will build upon the work of previous cohorts and will identify kinematic features associated with medication state during testing (OFF and ON medication for most participants) and aspects of disease phenotype.
+    1. In year 1 of the class, the final project will be scored based on reconstruction of expert labels (start and stop of FOG episodes) provided by a clinical collaborator. One approach is that provided by [Moore](reference/Moore.pdf). In later years, the final project will build upon the work of previous cohorts and will identify kinematic features associated with medication state during testing (OFF and ON medication for most participants) and aspects of disease phenotype.
 
 
