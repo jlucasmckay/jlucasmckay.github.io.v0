@@ -33,7 +33,9 @@ Following this course students should be able to:
 1. An end-of-semester project (50%) will provide students with practical experience in identifying health-related events in prospectively-collected research patient data. Students will use the PDFOG kinematic dataset to predict the onset of freezing of gait episodes identified from video recordings by an expert rater. This will be possible to do only techniques presented in the course, but students may identify and implement approaches from the literature.
 
 ## Outline
-    
+
+![](images/noisyCosine.png)
+
 1. Introduction to timeseries data
     1. Representations of time in informatics data
         1. Timescales - 1 kHz to 1 sample/year
@@ -41,7 +43,7 @@ Following this course students should be able to:
         1. Time to event: censored data and survival analysis
         1. Causal and non-causal data
         1. Course focus: signals in which time is represented implicitly and sampled regularly, "high frequency" in statistics nomenclature
-    1. Simple operations for discovering a signal embedded in additive noise ![](images/noisyCosine.png)
+    1. Simple operations for discovering a signal embedded in additive noise
         1. Regression onto a hypothesized basis
         1. Moving average smoothing
         1. Frequency-domain filtering
