@@ -5,7 +5,7 @@ title: Syllabus
 # Timeseries 1
 
 ## Summary
-This course presents a comprehensive treatment of timeseries data suitable for first- and second-year graduate students in Bioinformatics and Data Sciences.
+This course presents a comprehensive treatment of timeseries data suitable for first- and second-year graduate students in Clinical Bioinformatics and Data Sciences.
 The course is arranged as 12 weeks of lectures (2h/week) with 8 weekly homework problem sets.
 Two mid-semester projects will help students develop practical programming skills necessary for accessing and analyzing publicly-available data.
 The course closes with a machine learning competition focused on identification and annotation of freezing of gait episodes in kinematic data of patients with Parkinson's disease.
@@ -42,12 +42,15 @@ Following this course students should be able to:
         1. Explicit vs. implicit representations of time
         1. Time to event: censored data and survival analysis
         1. Causal and non-causal data
-        1. Course focus: signals in which time is represented implicitly and sampled regularly, "high frequency" in statistics nomenclature
+        1. Course focus: signals in which time is represented implicitly and sampled regularly
     1. Simple operations for discovering a signal embedded in additive noise
         1. Regression onto a hypothesized basis
         1. Moving average smoothing
         1. Frequency-domain filtering
         1. Autoregressive estimation
+    1. Statistical considerations when using timeseries data
+        1. Samples are not independent and identically-distributed
+        1. Naive calculations of P values are a common error
 1. __Spectral analysis and filtering__
     1. Equivalence of frequency and time domain representations of signals
     1. Signal representation by Fourier series
