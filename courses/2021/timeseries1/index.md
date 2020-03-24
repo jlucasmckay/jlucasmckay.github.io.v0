@@ -12,7 +12,7 @@ The course closes with a machine learning competition focused on identification 
 
 ## Prerequisites
 Previous coursework in linear algebra and statistics / probability theory.
-Fluency with programming in R, Matlab, Python, or similar.
+Fluency with programming in an interpreted language such as R, Matlab, or Python.
 
 ## Text
 There is no dedicated text. Some material is adapted from texts by [Lathi](reference/Lathi.pdf) and [Shumway](reference/Shumway.pdf).
@@ -26,6 +26,9 @@ Following this course students should be able to:
 1. Apply common linear and nonlinear signal conditioning approaches to noisy data.
 1. Calculate common estimates of time-varying spectral energy and other summary statistics.
 1. Design and train a simple classifier that can predict changes in time-varying signal energy.
+
+## Languages
+In year 1 of the course, programming exercises will be provided in R, with some material related to spectral analysis in Matlab, which remains a high-quality didactic environment for these purposes despite dwindling commercial use. In subsequent years Matlab examples will be re-implemented in R/Python.
 
 ## Grading
 1. Homework (25%) will consist of math problems and will help students develop analytical and programming skills.
