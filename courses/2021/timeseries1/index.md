@@ -28,7 +28,7 @@ Following this course students should be able to:
 1. Design and train a simple classifier that can predict changes in time-varying signal energy.
 
 ## Languages
-In year 1 of the course, programming exercises will be provided in R, with some material related to spectral analysis in Matlab, which remains a high-quality didactic environment for these purposes despite dwindling commercial use. In subsequent years Matlab examples will be re-implemented in R/Python.
+In year 1 of the course, programming exercises will be provided in R, with some material related to spectral analysis in Matlab, which remains a high-quality didactic environment for these purposes despite low and diminishing commercial use. In subsequent years Matlab examples will be re-implemented in R/Python.
 
 ## Grading
 1. Homework (25%) will consist of math problems and will help students develop analytical and programming skills.
