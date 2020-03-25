@@ -81,4 +81,18 @@ In year 1 of the course, programming exercises will be provided in R, with some 
 1. __Final project:__ detection of tremulous freezing episodes in unpublished kinematic data of PD patients annotated by clinical collaborators.
     1. Two lectures will cover clinical and practical aspects of Parkinson's disease.
     1. In year 1 of the class, the final project will be scored based on reconstruction of expert labels (start and stop of FOG episodes) provided by a clinical collaborator. One approach is that provided by [Moore](reference/Moore.pdf). In later years, the final project will build upon the work of previous cohorts and will identify kinematic features associated with medication state during testing (OFF and ON medication for most participants) and aspects of disease phenotype.
+    
+## Outline - Biomedical Signal Processing
+1. Patient monitoring and data acquisition
+1. Biomedical signals – ECG, SAO₂, BP, EEG, Resp, Speech …
+1. Time series analysis, autocorrelation, correlation
+1. Sampling, interpolation, windowing, decimation and anti-aliasing
+1. Frequency analysis
+1. AR spectral analysis, cepstral analysis & speech 
+1. Filtering (IIR/FIR)
+1. Event detection (beats, arrhythmias)
+1. Feature extraction (respiration, HRV)
+1. Labs (every afternoon) – ECG & PPG analysis
+1. Applications (final day) – presentations on 3 research topics
+
 
