@@ -95,4 +95,15 @@ In year 1 of the course, programming exercises will be provided in R, with some 
 1. Labs (every afternoon) – ECG & PPG analysis
 1. Applications (final day) – presentations on 3 research topics
 
+### Autoregressive Models
+1. A time-series tool, to predict future values from past events
+    * AR modelling utilizes the time history of a signal to predict future values of the signal.
+1. Can be used to derive a frequency spectrum too
+    * Similar to the Fourier transform, the AR model requires that the signal be wide sense stationary (loosely, having the same variance and mean over all time) for real applications, though there is no mathematical constraint.
+    * Quite nicely, as well as predicting future values, the AR model can also be used to derive a frequency spectrum, and can therefore be used as an alternative to the FFT (fast fourier transform) in the calculation of frequency spectra.
+1. Data must be stationary
+    * There is, of course, the question, why we would use AR rather than FFTs – but that is something we will get on to later.
+
+
+
 
