@@ -42,6 +42,30 @@ Atlanta, GA 30322
 ---
 
 
+## Education
+
+Post-Doc, Movement Disorders and Basal Ganglia Pathophysiology, 03/2016–08/2020  
+Emory University Movement Disorders Center  
+Yerkes National Primate Research Center  
+Atlanta, GA, USA
+
+M.S., Clinical Research, 08/2014–07/2016  
+Emory University, Atlanta, GA, USA
+
+Post-Doc, Human Movement Science, 08/2010-10/2013  
+Emory University, Atlanta, GA, USA
+
+Ph.D., Electrical and Computer Engineering, 08/2003-07/2010  
+Georgia Institute of Technology, Atlanta, GA, USA
+
+Sc.M., Electrical Engineering, 08/2002-05/2004  
+Sc.B., Electrical Engineering, 08/1998-05/2002  
+Brown University, Providence, RI, USA
+
+
+---
+
+
 ## Research products
 
 
