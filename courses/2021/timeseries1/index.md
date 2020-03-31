@@ -15,25 +15,21 @@ Previous coursework in linear algebra and statistics / probability theory.
 Fluency with programming in an interpreted language such as R, Matlab, or Python.
 
 ## Text
-There is no dedicated text. Some material is adapted from texts by [Lathi](reference/Lathi.pdf) and [Shumway](reference/Shumway.pdf).
+There is no dedicated text. Some material is adapted from texts by [Shumway](reference/Shumway.pdf), [Hamilton](reference/Hamilton.pdf), and [Lathi](reference/Lathi.pdf).
 
 ## Course Objectives
-This course will introduce students to theoretical and applied aspects of timeseries analysis through lectures, homework, and a second-quarter project.
+This course will introduce students to theoretical and applied aspects of timeseries analysis through lectures, homework, and a final project.
 Following this course students should be able to: 
-1. Understand fundamental duality between time- and frequency- domain representation of signals.
+1. Understand time-domain representations of signals, including difference equations and AR models.
 1. Understand fundamentals of sampling and aliasing.
-1. Access publicly-available timeseries datasets and prepare them for analyses that appropriately consider repeated measurements of individual patients at different nominal times.
-1. Apply common linear and nonlinear signal conditioning approaches to noisy data.
+1. Understand common sources of noise in biosignals.
+1. Apply common linear and nonlinear signal conditioning approaches to noisy biosignal data.
 1. Calculate common estimates of time-varying spectral energy and other summary statistics.
-1. Design and train a simple classifier that can predict changes in time-varying signal energy.
-
-## Languages
-In year 1 of the course, programming exercises will be provided in R, with some material related to spectral analysis in Matlab, which remains a high-quality didactic environment for these purposes despite low and diminishing commercial use. In subsequent years Matlab examples will be re-implemented in R/Python.
+1. Design and train a simple classifier that can identify events in biosignal data.
 
 ## Grading
-1. Homework (25%) will consist of math problems and will help students develop analytical and programming skills.
-1. Two mid-semester projects (25%) will help students develop practical programming skills necessary for accessing and analyzing publicly-available data. Both mid-semester projects will be available from the second week of class and can be turned in any time before the resources for the end-of-semester project are released.
-1. An end-of-semester project (50%) will provide students with practical experience in identifying health-related events in prospectively-collected research patient data. Students will use the PDFOG kinematic dataset to predict the onset of freezing of gait episodes identified from video recordings by an expert rater. This will be possible to do only techniques presented in the course, but students may identify and implement approaches from the literature.
+1. Homework (50%) will consist of math problems and will help students develop analytical and programming skills.
+1. An end-of-semester project (25%) will provide students with practical experience in identifying health-related events in patient data. 
 
 ## Outline
 
@@ -51,9 +47,6 @@ In year 1 of the course, programming exercises will be provided in R, with some 
         1. Moving average smoothing
         1. Frequency-domain filtering
         1. Autoregressive estimation
-    1. Statistical considerations when using timeseries data
-        1. Samples are not independent and identically-distributed
-        1. Naive calculations of P values are a common error
 1. __Spectral analysis and filtering__
     1. Equivalence of frequency and time domain representations of signals
     1. Signal representation by Fourier series
