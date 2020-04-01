@@ -3,6 +3,7 @@ title: Syllabus
 ---
 
 # Timeseries 1
+This course is currently under construction.
 
 ## Summary
 This course presents a comprehensive treatment of timeseries data suitable for first- and second-year graduate students in Clinical Bioinformatics and Data Sciences.
